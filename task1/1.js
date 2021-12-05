@@ -22,7 +22,7 @@ class AClass {
   }
 
   sort() {
-    return console.log();
+    return this.Numbers.sort((a, b) => a - b);
   }
 }
 
@@ -49,6 +49,14 @@ class Class2 extends AClass {
   }
 }
 
-const classA = new Class2(10);
+// Проверка работы классов
+// const classA = new AClass(10);
 
-console.log(classA);
+// console.log(classA);
+// console.log(classA.factorial());
+
+// const classB = new Class1(10);
+// console.log(classB.sort());
+
+// const classC = new Class2(5);
+// console.log(classC.sort());
